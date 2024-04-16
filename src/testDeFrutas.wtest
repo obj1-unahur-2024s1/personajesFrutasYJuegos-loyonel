@@ -1,0 +1,7 @@
+import frutas.*
+test "la manzana verde aporta 7 de eneriga" 
+{
+
+	assert.equals(7,  manzana.energiaQueDa())
+
+}
