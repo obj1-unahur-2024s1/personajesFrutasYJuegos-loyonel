@@ -24,4 +24,5 @@ object martin
 		tieneHambre = true
 		actividadesFisicas += 1
 	}
+	method tieneHambre()= tieneHambre
 }

@@ -1,0 +1,13 @@
+import personajes.*
+import frutas.*
+import juegos.*
+test "martin esta feliz" 
+{
+
+	assert.that(martin.estaFeliz())
+
+}
+test "martin al principio tiene hambre"
+{
+	assert.notThat(martin.tieneHambre())
+}
